@@ -1,0 +1,43 @@
+Cookie Harvester - Setup Instructions
+========================================
+
+REQUIREMENTS:
+- Windows 10/11
+- Google Chrome (installed in default location)
+- Brave Browser (installed in default location)
+
+SETUP:
+1. Download all files to a folder on your computer
+2. Run setup_profiles.bat to configure browser profiles
+3. Follow the on-screen instructions to set up Alt+0 keyboard shortcuts
+4. Run CookieHarvester.exe to start the program
+
+FIRST TIME SETUP:
+- The setup will create browser profiles for Chrome and Brave
+- For each profile, you'll need to set the Alt+0 keyboard shortcut for the Refract extension
+- Press Enter in the console when you finish setting up each profile
+
+USAGE:
+- The program will automatically rotate between browser pairs
+- Each session runs for 2 minutes by default
+- Press Ctrl+C to stop the program
+
+FILES INCLUDED:
+- CookieHarvester.exe - Main program
+- chromedriver.exe - Required for browser automation
+- setup_profiles.bat - Profile setup utility (Windows)
+- setup_profiles.py - Profile setup utility (Python)
+- fix_paths.py - Path resolution helper
+
+TROUBLESHOOTING:
+- If keyboard shortcuts don't work, run setup_profiles.bat again
+- Make sure Chrome and Brave are installed in their default locations
+- Check that chromedriver.exe is in the same folder as CookieHarvester.exe
+
+TECHNICAL SKILLS DEMONSTRATED:
+- Python automation with Selenium WebDriver
+- Multi-browser coordination and session management
+- Windows UI automation with pywinauto
+- PyInstaller executable packaging
+- Browser extension integration
+- Persistent profile management

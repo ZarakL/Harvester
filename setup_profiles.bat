@@ -1,0 +1,6 @@
+@echo off
+echo Running profile setup tool...
+python setup_profiles.py
+echo.
+echo Press any key to exit...
+pause >nul
