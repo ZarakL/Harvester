@@ -1,6 +1,6 @@
 # Cookie Harvester
 
-A browser automation tool demonstrating advanced Python programming skills for internship applications.
+A browser automation tool demonstrating advanced Python programming skills for automation purposes in order to solve real problems
 
 ## Technical Skills Demonstrated
 
